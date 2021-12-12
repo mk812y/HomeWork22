@@ -50,6 +50,9 @@
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hMW-cI-fuc">
                                                 <rect key="frame" x="147" y="0.0" width="190" height="25.5"/>
+                                                <connections>
+                                                    <action selector="actionSliderRed:" destination="BYZ-38-t0r" eventType="valueChanged" id="lbE-Jk-evN"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <constraints>
@@ -80,6 +83,9 @@
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Zb3-Tk-RvJ">
                                                 <rect key="frame" x="147" y="0.0" width="190" height="25"/>
+                                                <connections>
+                                                    <action selector="actionSliderGreen:" destination="BYZ-38-t0r" eventType="valueChanged" id="3Jz-bF-kpi"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <constraints>
@@ -110,6 +116,9 @@
                                             </label>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="XCE-v3-NKa">
                                                 <rect key="frame" x="147" y="0.0" width="190" height="25.5"/>
+                                                <connections>
+                                                    <action selector="actionSliderBlue:" destination="BYZ-38-t0r" eventType="valueChanged" id="2Pf-K4-Cfi"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                         <constraints>
