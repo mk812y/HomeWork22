@@ -139,7 +139,16 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="blueSlider" destination="XCE-v3-NKa" id="nYf-3J-wff"/>
+                        <outlet property="greenSlider" destination="Zb3-Tk-RvJ" id="8QF-Xb-Uz1"/>
+                        <outlet property="labelBlueSliderName" destination="YIK-OL-M9X" id="IYC-dW-xBx"/>
+                        <outlet property="labelBlueSliderValue" destination="qym-nj-onA" id="tyC-QN-vSn"/>
+                        <outlet property="labelGreenSliderName" destination="wvX-R4-4NZ" id="Kte-Bc-neF"/>
+                        <outlet property="labelGreenSliderValue" destination="iLJ-UO-nhW" id="go1-qc-gQx"/>
+                        <outlet property="labelRedSliderName" destination="R52-tt-GlX" id="bfz-y0-daN"/>
+                        <outlet property="labelRedSliderValue" destination="iLJ-UO-nhW" id="GDg-iV-izn"/>
                         <outlet property="mainView" destination="LUQ-hx-Zb6" id="BAr-sb-esd"/>
+                        <outlet property="redSlider" destination="hMW-cI-fuc" id="w9z-iD-Cx6"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
