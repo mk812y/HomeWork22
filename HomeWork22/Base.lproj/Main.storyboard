@@ -52,7 +52,6 @@
                                                 <rect key="frame" x="147" y="0.0" width="190" height="25.5"/>
                                             </slider>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="7Yv-Uv-BFz" secondAttribute="height" multiplier="97:7" id="ZQV-Sh-NeY"/>
                                             <constraint firstItem="6SD-27-N32" firstAttribute="leading" secondItem="R52-tt-GlX" secondAttribute="trailing" constant="20" id="dUI-ES-zF4"/>
@@ -83,7 +82,6 @@
                                                 <rect key="frame" x="147" y="0.0" width="190" height="25"/>
                                             </slider>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="jY1-yg-JhA" secondAttribute="height" multiplier="97:7" id="1kF-GK-emi"/>
                                             <constraint firstItem="iLJ-UO-nhW" firstAttribute="leading" secondItem="wvX-R4-4NZ" secondAttribute="trailing" constant="20" id="r9q-Pc-A0z"/>
@@ -114,7 +112,6 @@
                                                 <rect key="frame" x="147" y="0.0" width="190" height="25.5"/>
                                             </slider>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                                         <constraints>
                                             <constraint firstAttribute="width" secondItem="RiF-g2-b8S" secondAttribute="height" multiplier="97:7" id="BJu-Pw-aap"/>
                                             <constraint firstItem="qym-nj-onA" firstAttribute="leading" secondItem="YIK-OL-M9X" secondAttribute="trailing" constant="20" id="PwJ-vx-5WO"/>
@@ -146,7 +143,7 @@
                         <outlet property="labelGreenSliderName" destination="wvX-R4-4NZ" id="Kte-Bc-neF"/>
                         <outlet property="labelGreenSliderValue" destination="iLJ-UO-nhW" id="go1-qc-gQx"/>
                         <outlet property="labelRedSliderName" destination="R52-tt-GlX" id="bfz-y0-daN"/>
-                        <outlet property="labelRedSliderValue" destination="iLJ-UO-nhW" id="GDg-iV-izn"/>
+                        <outlet property="labelRedSliderValue" destination="6SD-27-N32" id="Xn8-ls-2yK"/>
                         <outlet property="mainView" destination="LUQ-hx-Zb6" id="BAr-sb-esd"/>
                         <outlet property="redSlider" destination="hMW-cI-fuc" id="w9z-iD-Cx6"/>
                     </connections>
@@ -157,9 +154,6 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="opaqueSeparatorColor">
-            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </systemColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

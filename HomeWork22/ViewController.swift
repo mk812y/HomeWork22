@@ -28,24 +28,38 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         mainView.backgroundColor = .white
+        mainView.layer.cornerRadius = 10
         view.backgroundColor = .blue
         
         labelRedSliderName.text = "Red"
-        labelRedSliderName.textColor = .red
+        labelRedSliderName.textColor = .white
         labelGreenSliderName.text = "Green"
-        labelGreenSliderName.textColor = .green
+        labelGreenSliderName.textColor = .white
         labelBlueSliderName.text = "Blue"
-        labelBlueSliderName.textColor = .blue
+        labelBlueSliderName.textColor = .white
+        
+        labelRedSliderValue.text = "1.00"
+        labelRedSliderValue.textColor = .white
+        labelRedSliderValue.textAlignment = .right
+        labelGreenSliderValue.text = "1.00"
+        labelGreenSliderValue.textColor = .white
+        labelGreenSliderValue.textAlignment = .right
+        labelBlueSliderValue.text = "1.00"
+        labelBlueSliderValue.textColor = .white
+        labelBlueSliderValue.textAlignment = .right
         
         redSlider.value = 1
         redSlider.minimumValue = 0
         redSlider.maximumValue = 100
+        redSlider.thumbTintColor = .red
         greenSlider.value = 1
         greenSlider.minimumValue = 0
         greenSlider.maximumValue = 100
+        greenSlider.thumbTintColor = .green
         blueSlider.value = 1
         blueSlider.minimumValue = 0
         blueSlider.maximumValue = 100
+        blueSlider.thumbTintColor = .blue
 
         
     }
