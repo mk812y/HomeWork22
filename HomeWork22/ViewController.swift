@@ -31,11 +31,11 @@ class ViewController: UIViewController {
         mainView.layer.cornerRadius = 10
         view.backgroundColor = .systemBlue
         
-        labelRedSliderName.text = "Red"
+        labelRedSliderName.text = "Red:"
         labelRedSliderName.textColor = .white
-        labelGreenSliderName.text = "Green"
+        labelGreenSliderName.text = "Green:"
         labelGreenSliderName.textColor = .white
-        labelBlueSliderName.text = "Blue"
+        labelBlueSliderName.text = "Blue:"
         labelBlueSliderName.textColor = .white
         
         labelRedSliderValue.text = "1.00"
@@ -57,10 +57,12 @@ class ViewController: UIViewController {
         greenSlider.minimumValue = 0
         greenSlider.maximumValue = 255
         greenSlider.thumbTintColor = .green
+        greenSlider.minimumTrackTintColor = minimumTrackTintColor
         blueSlider.value = 1
         blueSlider.minimumValue = 0
         blueSlider.maximumValue = 255
         blueSlider.thumbTintColor = .blue
+        blueSlider.minimumTrackTintColor = minimumTrackTintColor
         
         mainView.backgroundColor = UIColor(red: 1/255, green: 1/255, blue: 1/255, alpha: 1)
 
