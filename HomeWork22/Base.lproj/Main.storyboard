@@ -84,12 +84,21 @@
                                         <subviews>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Xg8-Ui-uRy">
                                                 <rect key="frame" x="-2" y="0.0" width="225" height="22.5"/>
+                                                <connections>
+                                                    <action selector="rgbSliders:" destination="BYZ-38-t0r" eventType="valueChanged" id="puA-q5-wJJ"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="hFw-Ft-dib">
                                                 <rect key="frame" x="-2" y="39.5" width="225" height="23"/>
+                                                <connections>
+                                                    <action selector="rgbSliders:" destination="BYZ-38-t0r" eventType="valueChanged" id="JMb-8e-aS0"/>
+                                                </connections>
                                             </slider>
                                             <slider opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="749" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Evz-4l-Bys">
                                                 <rect key="frame" x="-2" y="79.5" width="225" height="23"/>
+                                                <connections>
+                                                    <action selector="rgbSliders:" destination="BYZ-38-t0r" eventType="valueChanged" id="QPF-pi-gRH"/>
+                                                </connections>
                                             </slider>
                                         </subviews>
                                     </stackView>
